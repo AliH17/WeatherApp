@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "mobile",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-updates"
+    ],
+    "updates": {
+      "url": "https://u.expo.dev/214f022c-38a2-439a-bc00-29a3d26b05e9",
+      "fallbackToCacheTimeout": 0
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.alihaider132.mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "214f022c-38a2-439a-bc00-29a3d26b05e9"
+      }
+    },
+    "owner": "alihaider132",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
