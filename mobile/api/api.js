@@ -1,9 +1,9 @@
 // mobile/api/api.js
 import axios from 'axios';
 
-const WEATHERAPI_KEY = '97739c904c6b49a4b27105355252405';
+const WEATHERAPI_KEY ='';
 const WEATHER_BASE   = 'http://api.weatherapi.com/v1';
-const BACKEND_BASE   = 'http://192.168.0.127:4000'; // or your deployed backend
+const BACKEND_BASE   = ''; // or your deployed backend
 
 /**
  * Fetch current + 10-day forecast from WeatherAPI
