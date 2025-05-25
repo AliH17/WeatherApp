@@ -5,7 +5,7 @@ import MapView, { UrlTile, Marker } from 'react-native-maps';
 import { LocationContext } from '../context/LocationContext';
 import theme from '../theme';
 
-const OWM_API_KEY = 'f1fe4c74e11e37a0d0d35c72f593e300';
+const OWM_API_KEY = '';
 
 export default function MapScreen() {
   const { coords } = useContext(LocationContext);
